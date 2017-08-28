@@ -1,4 +1,10 @@
 {
+  "extends": "airbnb",
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import"
+  ],
   "ecmaFeatures": {
     "jsx": true,
     "modules": true
@@ -11,6 +17,7 @@
   "rules": {
     "quotes": [2, "single"],
     "strict": [2, "never"],
+    "linebreak-style": [0, "unix"],
     "babel/generator-star-spacing": 1,
     "babel/new-cap": 1,
     "babel/object-shorthand": 1,
